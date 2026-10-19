@@ -1,0 +1,21 @@
+# Depth Player
+
+> Depth Player is a free video player for Meta Quest headsets (Quest 3, Quest 3S, Quest Pro, Quest 2) that converts 2D video to stereoscopic 3D in real time on the headset and smooths motion with frame interpolation. No PC, cloud or streaming software is required. Publisher: Halpindev.
+
+## Key facts
+- Category: VR video player / 2D-to-3D converter for Meta Horizon OS.
+- 2D to 3D: an on-device AI monocular depth model (ZipDepth, 512x288) estimates per-frame depth on the Quest GPU; the app renders a separate view per eye (depth-image-based rendering) with occlusion handling and temporal stabilisation.
+- Smooth motion: motion-compensated frame interpolation converts 24/30 fps video to 72, 90 or 120 Hz, with scene-cut and fast-motion artifact protection.
+- Virtual cinema: flat or curved screen, adjustable size (up to 12 m wide) and distance (up to 10 m), grab-to-move, recenter.
+- Upscaling: AMD FidelityFX Super Resolution 1 (FSR) or Snapdragon GSR for video below 1080p.
+- Sources: local files (MP4, MKV, MOV, WebM and other formats via libVLC); DLNA/UPnP media servers (Plex, Jellyfin, Emby, NAS); SMB, SFTP, FTP, NFS shares; HTTP/HLS/RTSP stream links; built-in web browser with "Watch in VR", including YouTube on the VR screen.
+- Player features: subtitles and audio track selection, aspect ratio and crop, resume playback, go-to-time, VR mode and 2D window mode.
+- Languages: English, Russian, Spanish, German, French.
+- Price: free; no ads, no accounts, no analytics. All video processing stays on the device.
+- Limitations: copy-protected (DRM) streaming services such as Netflix or Prime Video cannot be converted to 3D.
+
+## Pages
+- [Home](https://alehano.github.io/depthplayer/): features and FAQ
+- [Privacy policy](https://alehano.github.io/depthplayer/privacy.html)
+- [Support and FAQ](https://alehano.github.io/depthplayer/support.html)
+- [Issues / contact](https://github.com/alehano/depthplayer/issues)

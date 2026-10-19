@@ -1,8 +1,21 @@
+<p align="center"><img src="assets/logo.png" width="520" alt="Depth Player logo"></p>
+
 # Depth Player – AI 2D to 3D VR video player for Meta Quest
 
 **Watch any video in 3D on Meta Quest 3.** Depth Player converts ordinary 2D movies, series and clips to stereoscopic 3D in real time, right on the headset, and makes motion smooth with frame interpolation. No PC, no streaming software, no cloud.
 
 🌐 Website: https://alehano.github.io/depthplayer/ · 🔒 [Privacy policy](https://alehano.github.io/depthplayer/privacy.html) · 💬 [Support & FAQ](https://alehano.github.io/depthplayer/support.html)
+
+## Screenshots
+
+![Depth Player in VR: movie on a curved cinema screen with controls](assets/screenshot-1.jpg)
+
+| | |
+|---|---|
+| ![2D movie converted to 3D in VR](assets/screenshot-2.jpg) | ![VR settings: frame rate, 3D strength, screen size](assets/screenshot-3.jpg) |
+| ![Picture format options in VR](assets/screenshot-4.jpg) | ![Curved virtual cinema screen](assets/screenshot-5.jpg) |
+
+<sub>Screenshots show *Tears of Steel* and *Big Buck Bunny* (CC BY 3.0, Blender Foundation).</sub>
 
 ## Features
 

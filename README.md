@@ -1,4 +1,4 @@
-# Depth Player – 2D to 3D video player for Meta Quest
+# Depth Player – AI 2D to 3D VR video player for Meta Quest
 
 **Watch any video in 3D on Meta Quest 3.** Depth Player converts ordinary 2D movies, series and clips to stereoscopic 3D in real time, right on the headset, and makes motion smooth with frame interpolation. No PC, no streaming software, no cloud.
 
@@ -7,7 +7,9 @@
 ## Features
 
 - **Real-time 2D → 3D conversion** – an on-device AI depth model gives every frame natural depth, rendered separately for each eye.
-- **Smooth motion** – motion-compensated frame interpolation plays 24/30 fps video at 72, 90 or 120 Hz, with scene-cut and fast-motion protection.
+- **Stereoscopic 3D** – a separate view for each eye with adjustable depth, from any 2D video.
+- **60 fps and higher** – motion-compensated frame interpolation (motion smoothing) plays 24/30 fps video at 60, 72, 90 or 120 fps, with scene-cut and fast-motion protection.
+- **YouTube in VR, in 3D** – watch YouTube on a giant screen through the built-in browser, converted to 3D.
 - **Virtual cinema** – flat or curved screen, adjustable size and distance, grab-to-move, recenter.
 - **Sharper low-resolution video** – AMD FidelityFX Super Resolution (FSR) upscaling.
 - **Plays from anywhere** – local files (MP4, MKV, MOV, WebM… via libVLC), DLNA/UPnP media servers (Plex, Jellyfin, Emby, NAS), SMB/SFTP/FTP/NFS shares, stream links and web video, including YouTube on the big screen in VR.

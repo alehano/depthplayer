@@ -1,62 +1,72 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Depth Player – 2D to 3D Video Player for Meta Quest</title>
-<meta name="description" content="Watch any video in 3D on Meta Quest 3. Depth Player converts 2D movies to stereoscopic 3D in real time on the headset, adds smooth 60–120 fps motion, and plays files, DLNA, SMB and web video. No PC needed.">
+<title>Depth Player – AI 2D to 3D VR Video Player for Meta Quest (60 fps)</title>
+<meta name="description" content="Free AI 2D to 3D converter and VR video player for Meta Quest 3. Turns any video into stereoscopic 3D in real time, smooths it to 60, 90 or 120 fps with frame interpolation, and plays YouTube in VR, files, Plex, DLNA and SMB. No PC needed.">
 <link rel="canonical" href="https://alehano.github.io/depthplayer/">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Depth Player">
-<meta property="og:title" content="Depth Player – 2D to 3D Video Player for Meta Quest"><meta property="og:description" content="Watch any video in 3D on Meta Quest 3. Depth Player converts 2D movies to stereoscopic 3D in real time on the headset, adds smooth 60–120 fps motion, and plays files, DLNA, SMB and web video. No PC needed.">
-<meta property="og:url" content="https://alehano.github.io/depthplayer/">
+<meta property="og:title" content="Depth Player – AI 2D to 3D VR Video Player for Meta Quest (60 fps)"><meta property="og:description" content="Free AI 2D to 3D converter and VR video player for Meta Quest 3. Turns any video into stereoscopic 3D in real time, smooths it to 60, 90 or 120 fps with frame interpolation, and plays YouTube in VR, files, Plex, DLNA and SMB. No PC needed."><meta property="og:url" content="https://alehano.github.io/depthplayer/">
 <meta name="twitter:card" content="summary"><meta name="theme-color" content="#0b0d12">
-<link rel="stylesheet" href="style.css"><script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Depth Player",
-"applicationCategory":"MultimediaApplication","operatingSystem":"Meta Horizon OS (Meta Quest 3, Quest 3S, Quest Pro, Quest 2)",
-"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
-"description":"A video player for Meta Quest that converts 2D video to stereoscopic 3D in real time on the headset, with motion smoothing (frame interpolation), a virtual cinema screen, upscaling and network playback.",
-"url":"https://alehano.github.io/depthplayer/","publisher":{"@type":"Organization","name":"Halpindev"},
-"featureList":["Real-time 2D to 3D conversion on device","Frame interpolation to 72, 90 or 120 fps","Flat or curved virtual cinema screen","FSR upscaling for low-resolution video","DLNA, SMB, SFTP, FTP and NFS network playback","Web video and YouTube in VR","Subtitles and audio track selection","Resume playback"]}
-</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does Depth Player need a PC?", "acceptedAnswer": {"@type": "Answer", "text": "No. 2D-to-3D conversion and frame interpolation run entirely on Meta Quest 3, Quest 3S, Quest Pro and Quest 2."}}, {"@type": "Question", "name": "How does Depth Player convert 2D video to 3D?", "acceptedAnswer": {"@type": "Answer", "text": "A compact AI depth model (ZipDepth) estimates depth for each frame on the headset's GPU. Depth Player then renders a separate image for each eye, giving stereoscopic 3D from ordinary 2D video."}}, {"@type": "Question", "name": "Does Depth Player make video smoother?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Motion-compensated frame interpolation plays 24 and 30 fps video at 72, 90 or 120 Hz, with protection against artifacts at scene cuts and fast motion."}}, {"@type": "Question", "name": "Which video sources does Depth Player play?", "acceptedAnswer": {"@type": "Answer", "text": "Files on the headset (MP4, MKV, MOV, WebM and more via libVLC), DLNA/UPnP media servers such as Plex, Jellyfin and Emby, SMB, SFTP, FTP and NFS shared folders, stream links, and web video including YouTube in VR."}}, {"@type": "Question", "name": "Can Depth Player convert Netflix or Prime Video to 3D?", "acceptedAnswer": {"@type": "Answer", "text": "No. Copy-protected streaming video can't be processed by any app. Depth Player converts your own files, network media and unprotected web video."}}, {"@type": "Question", "name": "Which headsets are supported?", "acceptedAnswer": {"@type": "Answer", "text": "Meta Quest 3 and Quest 3S are recommended. Quest Pro and Quest 2 are supported."}}, {"@type": "Question", "name": "Is Depth Player free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It has no ads, no accounts and no tracking."}}]}</script>
+<link rel="stylesheet" href="style.css">
 <link rel="alternate" type="text/plain" href="llms.txt" title="LLM summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Depth Player", "alternateName": "Depth Player for Meta Quest", "applicationCategory": "MultimediaApplication", "applicationSubCategory": "VR video player, 2D to 3D converter", "operatingSystem": "Meta Horizon OS (Meta Quest 3, Quest 3S, Quest Pro, Quest 2)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "isAccessibleForFree": true, "description": "Free AI 2D to 3D converter and VR video player for Meta Quest 3. Turns any video into stereoscopic 3D in real time, smooths it to 60, 90 or 120 fps with frame interpolation, and plays YouTube in VR, files, Plex, DLNA and SMB. No PC needed.", "url": "https://alehano.github.io/depthplayer/", "publisher": {"@type": "Organization", "name": "Halpindev"}, "keywords": "2D to 3D, AI 2D to 3D converter, stereoscopic 3D, VR video player, 60 fps, frame interpolation, motion smoothing, YouTube in VR, VR cinema, Meta Quest 3", "featureList": ["Real-time AI 2D to 3D conversion on the headset", "Stereoscopic 3D for any video", "Frame interpolation to 60, 72, 90 or 120 fps (motion smoothing)", "YouTube in VR with 3D", "Flat or curved virtual cinema screen", "FSR upscaling for low-resolution video", "Plex, Jellyfin, DLNA, SMB, SFTP, FTP, NFS playback", "Subtitles, audio tracks, resume playback"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Depth Player?", "acceptedAnswer": {"@type": "Answer", "text": "Depth Player is a free VR video player for Meta Quest that converts 2D video to stereoscopic 3D in real time with an on-device AI depth model, and smooths motion to 60, 90 or 120 fps with frame interpolation."}}, {"@type": "Question", "name": "How does the AI 2D to 3D conversion work?", "acceptedAnswer": {"@type": "Answer", "text": "A compact AI depth model (ZipDepth) estimates depth for every frame on the Quest's own GPU. Depth Player then renders a separate image for each eye with occlusion handling and temporal stabilisation, giving stereoscopic 3D from ordinary 2D video."}}, {"@type": "Question", "name": "Can Depth Player play video at 60 fps?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Motion-compensated frame interpolation turns 24 and 30 fps video into smooth 60, 72, 90 or 120 fps playback, matched to the headset's refresh rate, with protection against artifacts at scene cuts and fast motion."}}, {"@type": "Question", "name": "Does Depth Player need a PC?", "acceptedAnswer": {"@type": "Answer", "text": "No. 2D to 3D conversion, frame interpolation and upscaling all run on the headset. There is no PC, cloud or streaming software involved."}}, {"@type": "Question", "name": "Can I watch YouTube in VR and in 3D?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Open YouTube in the built-in browser and choose Watch in VR. The page appears on a giant virtual screen, and the video can be converted to 3D and smoothed like any other video."}}, {"@type": "Question", "name": "Which video sources does it play?", "acceptedAnswer": {"@type": "Answer", "text": "Files on the headset (MP4, MKV, MOV, WebM and more via libVLC), Plex, Jellyfin, Emby and NAS media servers over DLNA/UPnP, SMB, SFTP, FTP and NFS shared folders, HLS and RTSP stream links, and web video."}}, {"@type": "Question", "name": "How is Depth Player different from SVP or Owl3D?", "acceptedAnswer": {"@type": "Answer", "text": "SVP (Smooth Video Project) interpolates frames and Owl3D converts 2D to 3D, but both run on a PC. Depth Player does both in real time on the Meta Quest itself, inside a VR cinema."}}, {"@type": "Question", "name": "Can it convert Netflix or Prime Video to 3D?", "acceptedAnswer": {"@type": "Answer", "text": "No. Copy-protected (DRM) streaming video can't be processed by any app. Depth Player converts your own files, network media and unprotected web video such as YouTube."}}, {"@type": "Question", "name": "Which headsets are supported?", "acceptedAnswer": {"@type": "Answer", "text": "Meta Quest 3 and Quest 3S are recommended. Quest Pro and Quest 2 are supported."}}, {"@type": "Question", "name": "Is Depth Player free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It has no ads, no accounts and no tracking."}}]}</script>
 </head><body><main>
-<nav><a class="brand" href="./">Depth Player</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
-<h1>Any video, <span class="badge">in 3D</span>.</h1>
-<p class="lede">Depth Player is a video player for Meta Quest. It turns ordinary 2D video into stereoscopic 3D in real time, right on the headset, and makes motion smooth with frame interpolation. No PC needed.</p>
-<div class="grid">
-<div class="card"><h3>Instant 2D → 3D</h3><p>An on-device depth model gives every film, series or clip natural depth on a giant virtual screen.</p></div>
-<div class="card"><h3>Smooth motion</h3><p>Motion-compensated interpolation plays 24 and 30 fps video at the headset's refresh rate.</p></div>
-<div class="card"><h3>Your virtual cinema</h3><p>Flat or curved screen, any size and distance, upscaling for low-resolution video.</p></div>
-<div class="card"><h3>Plays what you have</h3><p>Files on the headset, media servers (DLNA), shared folders (SMB, SFTP, FTP, NFS), stream links and the web.</p></div>
+<nav><a class="brand" href="./">Depth Player</a><a href="#features">Features</a><a href="#faq">FAQ</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+<h1>AI 2D to 3D video player for Meta Quest</h1>
+<p class="lede">Depth Player turns any video into <b>stereoscopic 3D</b> in real time and plays it <b>smooth at 60 fps and beyond</b>, on a giant VR cinema screen. Everything runs on the headset. No PC needed. Free.</p>
+<div class="grid" id="features">
+<div class="card"><h3>AI 2D → 3D</h3><p>An on-device depth model converts every frame of 2D video to 3D.</p></div>
+<div class="card"><h3>Stereoscopic 3D</h3><p>A separate image for each eye, with natural depth and adjustable strength.</p></div>
+<div class="card"><h3>60 · 90 · 120 fps</h3><p>Frame interpolation smooths 24 fps films to the headset's refresh rate.</p></div>
+<div class="card"><h3>YouTube in VR</h3><p>Watch YouTube on the big screen, converted to 3D.</p></div>
 </div>
 
-<h2>Turn 2D video into 3D on Meta Quest</h2>
-<p>Most movies, series and clips are flat. Depth Player estimates depth for every frame with a compact AI depth model that runs on the Quest's own GPU, then renders a separate image for each eye. The result is real stereoscopic 3D from ordinary 2D video, on a cinema-sized screen, without a gaming PC, streaming software or cloud processing.</p>
-<h2>Smooth motion with frame interpolation</h2>
-<p>Films are shot at 24 frames per second, which judders on a VR display. Depth Player creates the in-between frames with motion-compensated interpolation, so camera pans and action scenes play smoothly at 72, 90 or 120 Hz. Scene cuts and fast motion are detected so the picture stays clean.</p>
-<h2>A virtual cinema you control</h2>
+<h2>AI 2D to 3D converter, right on the headset</h2>
+<p>Most movies, series and clips are flat. Depth Player estimates depth for every frame with a compact AI model running on the Meta Quest GPU, then renders the picture for each eye. The result is real-time 2D to 3D conversion of any video, with no gaming PC, no pre-processing and no upload to the cloud. Depth edges follow the picture, and scene cuts and camera flashes are handled so the 3D stays stable.</p>
+
+<h2>Stereoscopic 3D from any video</h2>
+<p>Depth Player creates true stereoscopic 3D: the left and right eye see slightly different views, just like a 3D cinema. You choose how strong the effect is. Turn 3D off at any time to watch in 2D on the same screen.</p>
+
+<h2>Frame interpolation: smooth 60 fps and higher</h2>
+<p>Films are shot at 24 frames per second, which judders on a VR display. Depth Player generates the in-between frames with motion-compensated frame interpolation (motion smoothing), so pans and action scenes play at 60, 72, 90 or 120 fps. Problem areas at scene cuts and very fast motion are detected and kept clean.</p>
+
+<h2>VR video player and virtual cinema</h2>
 <ul>
-<li>Flat or curved screen, adjustable size and distance, grab and move it with the controller.</li>
+<li>Flat or curved screen up to 12 m wide and 10 m away. Grab and move it with the controller.</li>
 <li>AMD FidelityFX Super Resolution (FSR) upscaling makes 480p and 720p video sharper.</li>
-<li>Subtitle and audio track selection, aspect ratio and crop, resume where you stopped.</li>
-<li>Switch between the VR cinema and a 2D window at any time.</li>
+<li>Subtitles, audio tracks, aspect ratio and crop, go to time, resume where you stopped.</li>
+<li>Switch between the VR cinema and a 2D window whenever you like.</li>
 </ul>
-<h2>Play videos from anywhere</h2>
+
+<h2>YouTube in VR, now in 3D</h2>
+<p>Open YouTube in the built-in browser and choose Watch in VR. The page fills a cinema-sized screen, you control it with the controller ray, and the video can be converted to 3D and smoothed like your own files. Bookmarks keep your favourite sites one click away.</p>
+
+<h2>Watch movies in VR from Plex, NAS, DLNA and SMB</h2>
 <ul>
 <li><b>On the headset</b>: MP4, MKV, MOV, WebM and more, powered by libVLC.</li>
-<li><b>Home network</b>: DLNA / UPnP media servers (Plex, Jellyfin, Emby, NAS) and shared folders over SMB, SFTP, FTP and NFS.</li>
-<li><b>Links and the web</b>: open stream links, browse video sites, and watch YouTube on the big screen in VR.</li>
+<li><b>Home network</b>: Plex, Jellyfin, Emby and NAS media servers over DLNA/UPnP, shared folders over SMB, SFTP, FTP and NFS.</li>
+<li><b>Links</b>: HLS, RTSP and HTTP streams, and "Open with" from other apps.</li>
 </ul>
-<h2>Frequently asked questions</h2>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>What is Depth Player?</h3>
+<p>Depth Player is a free VR video player for Meta Quest that converts 2D video to stereoscopic 3D in real time with an on-device AI depth model, and smooths motion to 60, 90 or 120 fps with frame interpolation.</p>
+<h3>How does the AI 2D to 3D conversion work?</h3>
+<p>A compact AI depth model (ZipDepth) estimates depth for every frame on the Quest's own GPU. Depth Player then renders a separate image for each eye with occlusion handling and temporal stabilisation, giving stereoscopic 3D from ordinary 2D video.</p>
+<h3>Can Depth Player play video at 60 fps?</h3>
+<p>Yes. Motion-compensated frame interpolation turns 24 and 30 fps video into smooth 60, 72, 90 or 120 fps playback, matched to the headset's refresh rate, with protection against artifacts at scene cuts and fast motion.</p>
 <h3>Does Depth Player need a PC?</h3>
-<p>No. 2D-to-3D conversion and frame interpolation run entirely on Meta Quest 3, Quest 3S, Quest Pro and Quest 2.</p>
-<h3>How does Depth Player convert 2D video to 3D?</h3>
-<p>A compact AI depth model (ZipDepth) estimates depth for each frame on the headset's GPU. Depth Player then renders a separate image for each eye, giving stereoscopic 3D from ordinary 2D video.</p>
-<h3>Does Depth Player make video smoother?</h3>
-<p>Yes. Motion-compensated frame interpolation plays 24 and 30 fps video at 72, 90 or 120 Hz, with protection against artifacts at scene cuts and fast motion.</p>
-<h3>Which video sources does Depth Player play?</h3>
-<p>Files on the headset (MP4, MKV, MOV, WebM and more via libVLC), DLNA/UPnP media servers such as Plex, Jellyfin and Emby, SMB, SFTP, FTP and NFS shared folders, stream links, and web video including YouTube in VR.</p>
-<h3>Can Depth Player convert Netflix or Prime Video to 3D?</h3>
-<p>No. Copy-protected streaming video can't be processed by any app. Depth Player converts your own files, network media and unprotected web video.</p>
+<p>No. 2D to 3D conversion, frame interpolation and upscaling all run on the headset. There is no PC, cloud or streaming software involved.</p>
+<h3>Can I watch YouTube in VR and in 3D?</h3>
+<p>Yes. Open YouTube in the built-in browser and choose Watch in VR. The page appears on a giant virtual screen, and the video can be converted to 3D and smoothed like any other video.</p>
+<h3>Which video sources does it play?</h3>
+<p>Files on the headset (MP4, MKV, MOV, WebM and more via libVLC), Plex, Jellyfin, Emby and NAS media servers over DLNA/UPnP, SMB, SFTP, FTP and NFS shared folders, HLS and RTSP stream links, and web video.</p>
+<h3>How is Depth Player different from SVP or Owl3D?</h3>
+<p>SVP (Smooth Video Project) interpolates frames and Owl3D converts 2D to 3D, but both run on a PC. Depth Player does both in real time on the Meta Quest itself, inside a VR cinema.</p>
+<h3>Can it convert Netflix or Prime Video to 3D?</h3>
+<p>No. Copy-protected (DRM) streaming video can't be processed by any app. Depth Player converts your own files, network media and unprotected web video such as YouTube.</p>
 <h3>Which headsets are supported?</h3>
 <p>Meta Quest 3 and Quest 3S are recommended. Quest Pro and Quest 2 are supported.</p>
 <h3>Is Depth Player free?</h3>
 <p>Yes. It has no ads, no accounts and no tracking.</p>
-<footer>© 2026 Halpindev · <a href="privacy.html">Privacy policy</a> · <a href="support.html">Support</a></footer>
+<footer>© 2026 Halpindev · <a href="privacy.html">Privacy policy</a> · <a href="support.html">Support</a> · <a href="llms.txt">llms.txt</a></footer>
 </main></body></html>

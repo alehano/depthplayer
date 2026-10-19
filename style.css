@@ -1,0 +1,19 @@
+:root{--bg:#0b0d12;--surface:#141821;--line:#262c3a;--fg:#e9ecf3;--muted:#a3aabb;--accent:#5b8cff;--accent2:#9b7bff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 "Inter",system-ui,-apple-system,"Segoe UI",sans-serif;padding:48px max(20px,env(safe-area-inset-left)) 64px}
+main{max-width:760px;margin:0 auto}
+a{color:var(--accent)}
+nav{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:40px;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--fg)}
+nav .brand{color:var(--fg);font-weight:700;margin-right:auto}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.15;margin:0 0 12px;letter-spacing:-.01em}
+h2{font-size:22px;margin:40px 0 10px}
+h3{font-size:17px;margin:24px 0 6px}
+p,li{color:#cfd4e0}
+.lede{font-size:19px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.card h3{margin-top:0}
+.card p{margin:0;font-size:15px}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.badge{display:inline-block;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;color:transparent;font-weight:700}

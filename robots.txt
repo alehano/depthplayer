@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alehano.github.io/depthplayer/sitemap.xml
